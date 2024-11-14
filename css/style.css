@@ -1,0 +1,1193 @@
+/* These Css are applicable for each section */
+
+
+img, svg {
+  vertical-align: middle;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow: hidden;
+  overflow-y: auto;
+  scroll-behavior: auto !important;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: 'Helvetica Now Text', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p,
+a,
+article,
+aside,
+span,
+li,
+button,
+input,
+textarea {
+  text-wrap: balance;
+}
+
+/* common css end*/
+
+/* Start Header Area */
+
+
+
+/* Start Header Top Area */
+/* .pf-header-sticky{
+  position: fixed !important;
+  top: 0;
+  animation: pf-headerStickyAnimations 0.8s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  display: block;
+  width: 100%;
+  box-shadow: 0px 7px 18px #1810100d;
+  z-index: 999;
+  max-width: 100%;
+  background-color: #fff;
+}
+@keyframes pf-headerStickyAnimations {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+} */
+
+.pf-header-area-home-1 {
+  position: relative;
+}
+
+.pf-header-area-home-1 .pf-header-top {
+  background-color: #1C487D;
+  padding: 10px 0;
+}
+
+.pf-header-area-home-1 .pf-header-top-inner {
+  text-align: center;
+}
+
+.pf-header-area-home-1 .pf-header-top-inner span {
+  color: #fff;
+  font-family: 'ABeeZee';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.pf-header-area-home-1 .pf-header-top-inner span>a {
+  font-size: 18px;
+  text-decoration: underline;
+  color: #fff;
+  font-weight: 400;
+}
+
+/* End Header Top Area */
+
+/* Start Header Bottom Area */
+.pf-header-area-home-1 .pf-header-bottom {
+  position: relative;
+  padding: 17px 0px;
+}
+
+.pf-header-area-home-1 .pf-header-bottom .pf-header-bottom-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pf-header-area-home-1 .pf-header-bottom nav ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width:1199px) {
+  .pf-header-area-home-1 .pf-header-bottom .pf-header-menu {
+    display: none;
+  }
+}
+
+@media (max-width:1299px) {
+  .pf-header-area-home-1 .pf-header-bottom nav ul {
+    gap: 0;
+  }
+}
+
+.pf-header-area-home-1 .pf-header-bottom nav ul li a {
+  color: #1C487D;
+  font-weight: 400;
+  transition: linear 0.3s;
+  padding: 8px 12px;
+  font-family: 'ABeeZee';
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.pf-header-area-home-1 .pf-header-bottom nav ul li a span {
+  margin-left: 3px;
+  position: relative;
+  top: -1px;
+}
+
+.pf-header-area-home-1 .pf-header-bottom nav ul li a:hover {
+  border-radius: 40px;
+  background: #F3F4F6;
+}
+
+.pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width:1299px) {
+  .pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon {
+    gap: 15px;
+  }
+}
+
+@media (max-width:1199px) {
+  .pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon {
+    width: 40%;
+  }
+}
+
+@media (max-width:767px) {
+  .pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon {
+    width: 50%;
+  }
+}
+
+@media (max-width:575px) {
+  .pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon {
+    display: none;
+  }
+}
+
+@media (max-width:767px) {
+  .pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon {
+    gap: 5px;
+  }
+}
+
+.pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon .pf-header-adtocard a,
+.pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon .pf-header-user-account a {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: linear 0.3s;
+  padding: 7px;
+}
+.pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon .pf-header-usd .pf-usd{
+  color: #1C487D;
+  margin: 0;
+  font-family: 'Helvetica Now Text';
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon .pf-header-adtocard a:hover,
+.pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon .pf-header-user-account a:hover {
+  background-color: #F5F5F5;
+}
+
+.pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon .pf-header-search form {
+  position: relative;
+}
+
+@media (max-width:1199px) {
+  .pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon .pf-header-search form {
+    display: none;
+  }
+}
+
+.pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon .pf-header-search form input {
+  border: none;
+  background-color: #F5F5F5;
+  color: #1C487D;
+  font-size: 16px;
+  font-weight: normal;
+  width: 148px;
+  border-radius: 40px;
+  padding: 8px 12px 8px 40px;
+  transition: all 0.3s ease;
+}
+
+.pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon .pf-header-search form input:focus {
+  width: 300px;
+}
+
+.pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon .pf-header-search form input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1C487D;
+  font-family: 'Helvetica Now Text';
+}
+@font-face{
+  font-family: 'Helvetica Now Text';
+  font-weight: 400;
+  src: url('../font/HelveticaNowText-Regular.woff2') format('woff2'),
+       url('../font/HelveticaNowText-Regular.woff') format('woff');
+}
+
+.pf-header-area-home-1 .pf-header-bottom .pf-header-others-icon .pf-header-search form a {
+  position: absolute;
+  top: 46%;
+  transform: translateY(-50%);
+  left: 12px;
+}
+
+.pf-header-area-home-1 .pf-header-bottom .pf-header-menu-bar {
+  display: none;
+}
+
+@media (max-width:1199px) {
+  .pf-header-area-home-1 .pf-header-bottom .pf-header-menu-bar {
+    display: block;
+    order: 3;
+  }
+}
+
+/* End Header Bottom Area */
+
+
+
+/* banner css start */
+.banner-section-start{
+  background: #F6F4F3;
+}
+.banner-section-start 
+.pf-banner-heading-text{
+  font-family: 'Myriad Pro';
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 70px;
+  color: #1C487D;
+  padding-bottom: 16px;
+  position: relative;
+  padding-top: 125px;
+  max-width: 589px;
+  text-wrap: auto;
+}
+.banner-section-start 
+.pf-banner-heading-text span img{
+  position: absolute;
+  left: -24px;
+  top: 110px;
+}
+
+.banner-section-start .pf-paragraph{
+  text-wrap: auto;
+  max-width: 560px;
+}
+.pf-paragraph{
+  font-family: 'ABeeZee';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #424242;
+}
+
+.banner-section-start 
+.pf-paragraph{
+  padding-bottom: 25px;
+}
+.pf-shopnow-btn{
+  font-family: 'Adelle Sans';
+  font-size: 18px;
+  line-height: 26px;
+  color: #F6F4F3;
+  background: #FF7A00;
+  padding: 10px 24px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.pf-banner-right .pf-vector{
+  position: relative;
+}
+.pf-banner-right .pf-vector img{
+  position: absolute;
+  left: 10px;
+  top: 43px;
+}
+.pf-banner-right{
+  margin-top: 68px;
+}
+.banner-section-start .pf-scroll-down-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 56px;
+}
+.banner-section-start .pf-scroll-down-section .pf-scroll-text{
+  font-family: 'ABeeZee';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1C487D;
+  margin-top: 8px;
+}
+
+@font-face{
+  font-family: 'Myriad Pro';
+  font-weight: 600;
+  src: url('../font/MyriadPro-Semibold.woff2') format('woff2'),
+       url('../font/MyriadPro-Semibold.woff') format('woff');
+}
+@font-face{
+  font-family: 'ABeeZee';
+  font-weight: 400;
+  src: url('../font/ABeeZee-Regular.woff2') format('woff2'),
+       url('../font/ABeeZee-Regular.woff') format('woff');
+}
+@font-face{
+  font-family: 'Adelle Sans';
+  font-weight: 400;
+  src: url('../font/AdelleSansARA-Regular.woff2') format('woff2'),
+       url('../font/AdelleSansARA-Regular.woff') format('woff');
+}
+
+.banner-section-start{
+  margin-bottom: 40px;
+}
+
+
+@media(min-width:992px) and (max-width:1199.98px){
+   
+}
+@media(min-width:768px) and (max-width:991.98px){
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .banner-section-start .pf-banner-heading-text{
+    font-size: 40px;
+    line-height: 59px;
+    padding-top: 80px;
+  }
+  .banner-section-start .pf-banner-heading-text span img {
+    left: -22px;
+    top: 73px;
+}
+.pf-paragraph{
+  font-size: 16px;
+}
+.pf-shopnow-btn{
+  font-size: 16px;
+}
+
+}
+
+@media (max-width: 575.98px) {
+  .banner-section-start .pf-banner-heading-text{
+    font-size: 35px;
+    line-height: 51px;
+    padding-top: 80px;
+  }
+  .banner-section-start .pf-banner-heading-text span img {
+    left: -22px;
+    top: 73px;
+}
+.pf-paragraph{
+  font-size: 16px;
+}
+.pf-shopnow-btn{
+  font-size: 16px;
+}
+.pf-banner-right .pf-vector img{
+  display: none;
+}
+
+}
+/* banner css end */
+
+
+/* well water collcetion css start */
+.pf-well-water-collection-section{
+  padding: 40px 0;
+}
+
+.pf-common-head{
+  color: #1C487D;
+  text-align: center;
+  font-family: "Myriad Pro";
+  font-size: 50px;
+  font-weight: 600;
+  padding-bottom: 48px;
+}
+
+.pf-well-water-collection-section
+.pf-collection-img{
+  background: #F6F4F3;
+  width: 100%;
+  border-radius: 24px;
+}
+
+.pf-well-water-collection-section
+.pf-collection-text
+.pf-collection-head{
+  color: #141414;
+  font-family: 'ABeeZee';
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 24px;
+  width: 100%;
+  text-wrap: auto;
+  line-height: 150%; /* 24px */
+}
+
+.pf-well-water-collection-section
+.pf-collection-text
+.pf-price{
+  color: #FF7A00;
+  font-family: "Adelle Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.08px;
+  padding-top: 12px;
+}
+.pf-well-water-collection-section
+.pf-collection-img img{
+  margin: auto;
+  width: 100%;
+  padding: 1rem;
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+  .pf-well-water-collection-section
+  .pf-container
+  .pf-row
+  .pf-col-lg-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .pf-well-water-collection-section
+  .pf-container
+  .pf-row
+  .pf-col-lg-3:nth-last-child(1){
+      margin-bottom: 0;
+  }
+  .pf-well-water-collection-section .pf-collection-text .pf-collection-head{
+    text-align: center;
+  }
+  .pf-well-water-collection-section .pf-collection-text .pf-price{
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .pf-common-head{
+    font-size: 45px;
+  }
+  .pf-well-water-collection-section
+  .pf-container
+  .pf-row
+  .pf-col-lg-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .pf-well-water-collection-section
+  .pf-container
+  .pf-row
+  .pf-col-lg-3:nth-last-child(1){
+      margin-bottom: 0;
+  }
+  .pf-well-water-collection-section .pf-collection-text .pf-collection-head{
+    text-align: center;
+  }
+  .pf-well-water-collection-section .pf-collection-text .pf-price{
+    text-align: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+    .pf-common-head{
+    font-size: 35px;
+  }
+  .pf-well-water-collection-section
+  .pf-container
+  .pf-row
+  .pf-col-lg-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .pf-well-water-collection-section
+  .pf-container
+  .pf-row
+  .pf-col-lg-3:nth-last-child(1){
+      margin-bottom: 0;
+  }
+  .pf-well-water-collection-section .pf-collection-text .pf-collection-head{
+    text-align: center;
+  }
+  .pf-well-water-collection-section .pf-collection-text .pf-price{
+    text-align: center;
+  }
+}
+
+
+/* well water collcetion css end*/
+
+
+/* why-choose-water section css start */
+.pf-why-choose-well-water-section{
+  padding: 80px 0;
+  background: #F6F4F3;
+  margin: 40px 0;
+  overflow: hidden;
+}
+.pf-why-choose-well-water-section
+.pf-card{
+  background: #fff;
+  padding: 16px 24px;
+  border-radius: 24px;
+  margin-bottom: 26px;
+  max-width: 580px;
+  margin-left: 49px;
+}
+.pf-why-choose-well-water-section
+.pf-card .pf-paragraph{
+  letter-spacing: -0.08px;
+  padding-top: 8px;
+  max-width: 518px;
+  text-wrap: auto;
+}
+.pf-why-choose-well-water-section
+.pf-card .pf-card-head{
+color: #FF7A00;
+font-family: "Adelle Sans";
+font-size: 20px;
+font-weight: 500;
+line-height: 150%; /* 30px */
+letter-spacing: -0.1px;
+}
+.pf-why-choose-well-water-section
+.pf-container
+.pf-row{
+  align-items: center;
+}
+
+.pf-why-choose-well-water-section .pf-col-lg-6 .pf-card:nth-last-child(1){
+  margin-bottom: 0;
+}
+
+.pf-why-choose-well-water-section .pf-container{
+  position: relative;
+}
+.pf-why-choose-well-water-section .pf-vg-vector img{
+  position: absolute;
+  left: -24%;
+  top: -87px;
+  z-index: 1;
+}
+.pf-why-choose-well-water-section .pf-container .pf-row {
+  position: relative;
+}
+.pf-why-chooseimg a img{
+  position: absolute;
+  left: 0;
+  top: 110px;
+  z-index: 1;
+  width: 45%;
+}
+
+
+
+
+@media(min-width:992px) and (max-width:1199.98px){
+  .pf-why-chooseimg a img {
+    position: absolute;
+    left: 23%;
+    top: 57%;
+    z-index: 1;
+    width: 45%;
+    transform: translate(-50%, -50%);
+}
+.pf-why-choose-well-water-section .pf-card{
+  margin-left: 0;
+}
+   
+.pf-why-choose-well-water-section .pf-vg-vector img {
+  left: -32%;
+  top: -179px;
+  width: 86%;
+}
+
+}
+@media(min-width:768px) and (max-width:991.98px){
+
+  .pf-why-chooseimg a img {
+    position: absolute;
+    left: 23%;
+    top: 57%;
+    z-index: 1;
+    width: 45%;
+    transform: translate(-50%, -50%);
+}
+.pf-why-choose-well-water-section .pf-card{
+  margin-left: 0;
+}
+   
+.pf-why-choose-well-water-section .pf-vg-vector img {
+  display: none;
+}
+.pf-why-chooseimg a img {
+  position: static;
+  width: 100%;
+   transform: translate(0, 0);
+}
+
+.pf-why-choose-well-water-section .pf-container .pf-row{
+  gap: 30px;
+}
+.pf-why-choose-well-water-section .pf-card{
+  max-width: 100%;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  
+  .pf-why-chooseimg a img {
+    position: absolute;
+    left: 23%;
+    top: 57%;
+    z-index: 1;
+    width: 45%;
+    transform: translate(-50%, -50%);
+}
+.pf-why-choose-well-water-section .pf-card{
+  margin-left: 0;
+}
+   
+.pf-why-choose-well-water-section .pf-vg-vector img {
+  display: none;
+}
+.pf-why-chooseimg a img {
+  position: static;
+  width: 100%;
+   transform: translate(0, 0);
+}
+
+.pf-why-choose-well-water-section .pf-container .pf-row{
+  gap: 30px;
+}
+.pf-why-choose-well-water-section .pf-card{
+  max-width: 100%;
+}
+
+
+}
+
+@media (max-width: 575.98px) {
+
+
+  .pf-why-chooseimg a img {
+    position: absolute;
+    left: 23%;
+    top: 57%;
+    z-index: 1;
+    width: 45%;
+    transform: translate(-50%, -50%);
+}
+.pf-why-choose-well-water-section .pf-card{
+  margin-left: 0;
+}
+   
+.pf-why-choose-well-water-section .pf-vg-vector img {
+  display: none;
+}
+.pf-why-chooseimg a img {
+  position: static;
+  width: 100%;
+   transform: translate(0, 0);
+}
+
+.pf-why-choose-well-water-section .pf-container .pf-row{
+  gap: 30px;
+}
+.pf-why-choose-well-water-section .pf-card{
+  max-width: 100%;
+}
+
+}
+
+/* why-choose-water section css end */
+
+
+/* work section css start */
+.pf-work-section{
+  padding: 40px 0;
+}
+.pf-work-section .pf-text-area .pf-common-head{
+  color: #141414;
+  padding-bottom: 16px;
+}
+.pf-work-section .pf-text-area{
+  max-width: 607px;
+  margin: 0 auto;
+}
+.pf-work-section .pf-text-area .pf-paragraph{
+  max-width: 607px;
+  text-wrap: auto;
+  margin-bottom: 48px;
+}
+
+.pf-work-section .pf-card .pf-card-head{
+  max-width: 359px;
+  color: #000;
+  font-family: "Adelle Sans";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 150%; /* 36px */
+  letter-spacing: -0.12px;
+  text-wrap: auto;
+  padding-top: 24px;
+  padding-bottom: 12px;
+}
+
+.pf-work-section .pf-card{
+  width: 100%;
+  padding: 24px 24px 34.6px 24px;
+  border-radius: 24px;
+  border: 1px solid #4E7EBE;
+  background:var(--bg-color);
+  position: relative;
+} 
+.pf-work-section .pf-card .pf-paragraph{
+  max-width: 376px;
+  text-wrap: auto;
+  word-break: break-all;
+}
+
+.pf-work-section .pf-card .pf-number{
+  color: #424242;
+  font-family: "Myriad Pro";
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 140%; /* 70px */
+  letter-spacing: -0.5px;
+  position: absolute;
+  right: 25px;
+  top: 6px;
+  opacity: 0.5;
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+  .pf-work-section .pf-container .pf-row{
+    gap: 30px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .pf-work-section .pf-container .pf-row{
+    gap: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .pf-work-section .pf-container .pf-row{
+    gap: 30px;
+  }
+}
+
+
+/* work section css end */
+
+
+
+/* about section css start */
+.pf-about-section{
+  padding: 80px 0;
+  background: #F6F4F3;
+}
+.pf-about-section .pf-col-lg-6 a img {
+  border-radius: 36px;
+
+}
+
+.pf-about-section
+.pf-about-text
+.pf-common-head{
+  text-align: start;
+  padding-bottom: 16px;
+}
+
+.pf-about-section
+.pf-about-text
+.pf-shopnow-btn{
+  margin-top: 36px;
+  display: inline-block;
+}
+
+.pf-about-section
+.pf-about-text
+.pf-paragraph{
+  text-align: start;
+  padding-bottom: 16px;
+  max-width: 536px;
+  text-wrap: auto;
+  letter-spacing: -0.1px;
+}
+.pf-about-section
+.pf-container
+.pf-row{
+  align-items: center;
+}
+
+
+@media(min-width:768px) and (max-width:991.98px){
+  .pf-about-section .pf-container .pf-row{
+    gap: 30px;
+  }
+  .pf-about-section .pf-about-text .pf-shopnow-btn{
+    margin-top: 20px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .pf-about-section .pf-container .pf-row{
+    gap: 30px;
+  }
+  .pf-about-section .pf-about-text .pf-shopnow-btn{
+    margin-top: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .pf-about-section .pf-container .pf-row{
+    gap: 30px;
+  }
+  .pf-about-section .pf-about-text .pf-shopnow-btn{
+    margin-top: 20px;
+  }
+}
+
+
+
+/* about section css end */
+
+/* fountain-section css start*/
+.pf-fountain-section{
+  padding: 80px 0;
+  background: #4E7EBE;
+  overflow: hidden;
+}
+.pf-fountain-section .pf-btn
+.pf-shopnow-btn
+{
+  text-align: center;
+}
+.pf-fountain-section .pf-btn{
+  display: flex;
+  justify-content: center;
+}
+.pf-fountain-section
+.pf-paragraph
+{
+  text-align: center;
+  color: #fff;
+  padding-bottom: 36px;
+  max-width: 730px;
+  text-wrap: wrap;
+  margin: 0 auto;
+  letter-spacing: -0.08px;
+  line-height: 150%; /* 24px */
+}
+.pf-fountain-section
+.pf-common-head
+{
+  text-align: center;
+  color: #fff;
+  padding-bottom: 16px;
+  max-width: 603px;
+  margin: 0 auto;
+  letter-spacing: -0.5px;
+  text-wrap: auto;
+}
+
+.pf-fountain-section .img-01,
+.pf-fountain-section .img-02,
+.pf-fountain-section .img-03,
+.pf-fountain-section .img-04
+{
+  width: 212px;
+  height: 211px;
+  max-width: 100%;
+  border-radius: 24px;
+}
+
+.pf-fountain-section .pf-container{
+  position: relative;
+}
+.pf-fountain-section .img-01{
+  position: absolute;
+  left: -3%;
+  top: 0;
+}
+.pf-fountain-section .img-02{
+  position: absolute;
+  right: -3%;
+  top: 0;
+}
+.pf-fountain-section .img-03{
+  position: absolute;
+  left: 11%;
+  top: 84%;
+}
+.pf-fountain-section .img-04{
+  position: absolute;
+  right: 11%;
+  top: 84%;
+}
+
+@media(min-width:992px) and (max-width:1199.98px){
+  .pf-fountain-section .img-01{
+    left: -10%;
+  }
+  .pf-fountain-section .img-02{
+    right: -10%;
+  }
+
+  .pf-fountain-section .img-03{
+    top: 95%;
+  }
+  .pf-fountain-section .img-04{
+    top: 95%;
+  }
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+  .pf-fountain-section .img-01{
+    left: -26%;
+  }
+  .pf-fountain-section .img-02{
+    right: -26%;
+  }
+
+  .pf-fountain-section .img-03{
+    top: 110%;
+  }
+  .pf-fountain-section .img-04{
+    top: 110%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .pf-fountain-section .img-01{
+   display: none;
+  }
+  .pf-fountain-section .img-02{
+    display: none;
+  }
+
+  .pf-fountain-section .img-03{
+    display: none;
+  }
+  .pf-fountain-section .img-04{
+    display: none;
+  }
+}
+@media (max-width: 575px){
+  .pf-fountain-section .img-01{
+   display: none;
+  }
+  .pf-fountain-section .img-02{
+    display: none;
+  }
+
+  .pf-fountain-section .img-03{
+    display: none;
+  }
+  .pf-fountain-section .img-04{
+    display: none;
+  }
+}
+/* fountain-section css end*/
+
+
+/* rythom section css start */
+.pf-rythom-section{
+  padding: 40px 0;
+}
+.pf-rythom-section .pf-left-text .pf-common-head{
+  text-align: start;
+  max-width: 586px;
+  text-wrap: auto;
+  padding-bottom: 16px;
+}
+.pf-rythom-section .pf-left-text .pf-paragraph{
+  text-align: start;
+  max-width: 586px;
+  text-wrap: auto;
+  padding-bottom: 16px;
+  line-height: 150%; /* 30px */
+letter-spacing: -0.1px;
+}
+.pf-rythom-section .pf-right-img a img{
+  max-width: 100%;
+  width: 648px;
+  height: 648px;
+  border-radius: 36px;
+}
+.pf-rythom-section .pf-container .pf-row{
+  align-items: center;
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+  .pf-rythom-section .pf-container .pf-row{
+    gap: 30px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .pf-rythom-section .pf-container .pf-row{
+    gap: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .pf-rythom-section .pf-container .pf-row{
+    gap: 30px;
+  }
+}
+/* rythom section css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
