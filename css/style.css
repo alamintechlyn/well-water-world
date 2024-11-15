@@ -61,23 +61,7 @@ img {
   display: block;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h5,
-p,
-a,
-article,
-aside,
-span,
-li,
-button,
-input,
-textarea {
-  text-wrap: balance;
-}
+
 
 /* common css end*/
 
@@ -529,12 +513,7 @@ textarea {
   .pf-col-lg-3:nth-last-child(1){
       margin-bottom: 0;
   }
-  .pf-well-water-collection-section .pf-collection-text .pf-collection-head{
-    text-align: center;
-  }
-  .pf-well-water-collection-section .pf-collection-text .pf-price{
-    text-align: center;
-  }
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -556,12 +535,7 @@ textarea {
   .pf-col-lg-3:nth-last-child(1){
       margin-bottom: 0;
   }
-  .pf-well-water-collection-section .pf-collection-text .pf-collection-head{
-    text-align: center;
-  }
-  .pf-well-water-collection-section .pf-collection-text .pf-price{
-    text-align: center;
-  }
+
 }
 
 @media (max-width: 575.98px) {
@@ -583,12 +557,7 @@ textarea {
   .pf-col-lg-3:nth-last-child(1){
       margin-bottom: 0;
   }
-  .pf-well-water-collection-section .pf-collection-text .pf-collection-head{
-    text-align: center;
-  }
-  .pf-well-water-collection-section .pf-collection-text .pf-price{
-    text-align: center;
-  }
+
 }
 
 
@@ -1113,6 +1082,97 @@ letter-spacing: -0.1px;
   }
 }
 /* rythom section css end */
+
+
+/* faq-section css start */
+.pf-faq-section{
+  padding: 40px 0;
+}
+.pf-faq-section .pf-common-head{
+  max-width: 376px;
+  text-align: start;
+  padding-bottom: 32px;
+  letter-spacing: -0.09px;
+}
+.pf-faq-section .pf-paragraph{
+  max-width: 370px;
+  text-align: start;
+  padding-bottom: 31px;
+  font-size: 18px;
+}
+.pf-faq-section .pf-shopnow-btn{
+  text-transform: capitalize;
+}
+
+.pf-faq-section .pf-accordian-card .pf-top .pf-acccordian-head{
+  color: #424242;
+  font-family: 'ABeeZee';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: -0.12px;
+  max-width: 649px;
+}
+.pf-faq-section .pf-accordian-card .pf-top{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.pf-faq-section .pf-accordian-card .pf-bottom .pf-accordian-body{
+  color:#141414;
+  font-family: ABeeZee;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.08px;
+}
+.pf-faq-section .pf-accordian-card .pf-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.pf-faq-section .pf-accordian-card .pf-bottom {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  padding: 0 10px;
+}
+
+.pf-faq-section .pf-accordian-card .pf-bottom .pf-accordian-body {
+  margin-bottom: 10px;
+}
+.pf-faq-section .pf-accordian-card{
+  margin-bottom: 50px;
+  background: #fff;
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+  .pf-faq-section .pf-container .pf-row{
+    gap: 30px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .pf-faq-section .pf-container .pf-row{
+    gap: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .pf-faq-section .pf-container .pf-row{
+    gap: 30px;
+  }
+}
+
+/* faq-section css end */
+
+
+/* popular product section css start */
+  
+/* popular product section css end */
 
 
 
