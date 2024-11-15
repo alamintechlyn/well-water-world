@@ -1184,59 +1184,36 @@ letter-spacing: -0.1px;
   align-items: center;
 }
 
-.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide .pf-slider-card{
-  position: relative;
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .pf-slider-card .left-side a img{
+  width: 310px;
+  height: 497px;
+  max-width: 100%;
 }
 
-.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide .pf-slider-card .right-side{
-  position: absolute;
-  left: 0;
-  top: 0;
-  transition: all linear .4s;
-  opacity: 0;
-  z-index: -1;
-}
-.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide-active .pf-slider-card .right-side{
-  position: absolute;
-  left: 39%;
-  top: 0;
-  opacity: 1;
-  z-index: -1;
-}
 
-.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide-active {
-  width: 60% !important;
-}
 
-.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide-next {
-  width: 26% !important;
-}
 
 
 .pf-popular-product-section
  .pf-slider-card .left-side a img{
- width: 100%;
- height: 100%;
  border-radius: 32px;
 }
-.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide-active .pf-slider-card {
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide-prev  .pf-slider-card {
   border: 2px solid #1C487D;
   border-radius: 32px;
 }
-.pf-popular-product-section .pf-popular-slider .swiper-wrapper {
+/* .pf-popular-product-section .pf-popular-slider .swiper-wrapper {
   gap: 24px;
-}
+} */
 
-.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide-active .pf-slider-card .left-side a img{
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper  .pf-slider-card .left-side a img{
   border-radius: 32px 0 0 32px;
-  height: 497px;
-max-width: 310px;
   object-fit: cover;
 }
 .pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide .pf-slider-card .right-side{
-  padding: 36px 56px; 
+  padding: 24px 56px;
   background: #fff;
-  border-radius: 32px;
+  border-radius: 0 32px 32px 0;
 }
 .pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide .pf-slider-card .right-side svg,
 .pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide .pf-slider-card .right-side img,
@@ -1269,98 +1246,35 @@ max-width: 310px;
   border-radius: 40px;
   border: 2px solid #1C487D;
   cursor: pointer;
+  background: #1C487D;
 }
 .pf-arrow-btn-nextandprev
 .pf-prev-btn{
   border-radius: 40px;
   border: 2px solid #1C487D;
   cursor: pointer;
-  background: #1C487D;
 }
 
 .pf-arrow-btn-nextandprev{
   text-align: end;
-  margin-top: 48px;
 }
 
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, 1px);
+  top: var(--swiper-pagination-top, auto);
+  left: -44%;
+  width: 100%;
+}
 
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper{
+  padding-bottom: 4rem;
+}
+.pf-popular-product-section .pf-popular-slider .swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: var(--swiper-pagination-color, #1C487D);
+}
 
 /* popular product section css end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
