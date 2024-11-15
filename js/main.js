@@ -25,3 +25,32 @@
 
     })
 })
+
+
+
+// popular product js
+var swiper = new Swiper(".pf-popular-slider", {
+    slidesPerView: 3,
+    loop:true,
+    navigation: {
+        nextEl: ".pf-next-btn",
+        prevEl: ".pf-prev-btn",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        640: {
+            slidesPerView: 1, 
+        },
+        768: {
+            slidesPerView: 2, 
+        },
+
+        1024: {
+            slidesPerView: 3, 
+        }
+    }
+});
+

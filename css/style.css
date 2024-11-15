@@ -1040,7 +1040,8 @@ letter-spacing: -0.1px;
 
 /* rythom section css start */
 .pf-rythom-section{
-  padding: 40px 0;
+  padding: 80px 0;
+  background: #F6F4F3;
 }
 .pf-rythom-section .pf-left-text .pf-common-head{
   text-align: start;
@@ -1086,7 +1087,7 @@ letter-spacing: -0.1px;
 
 /* faq-section css start */
 .pf-faq-section{
-  padding: 40px 0;
+  padding: 80px 0;
 }
 .pf-faq-section .pf-common-head{
   max-width: 376px;
@@ -1171,7 +1172,119 @@ letter-spacing: -0.1px;
 
 
 /* popular product section css start */
-  
+.pf-popular-product-section{
+  padding: 40px 0;
+  background: #F6F4F3;
+}
+.pf-popular-product-section .pf-slider-card .right-side .pf-paragraph{
+  max-width: 441px;
+}
+.pf-popular-product-section .pf-slider-card {
+  display: flex;
+  align-items: center;
+}
+
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide .pf-slider-card{
+  position: relative;
+}
+
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide .pf-slider-card .right-side{
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all linear .4s;
+  opacity: 0;
+  z-index: -1;
+}
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide-active .pf-slider-card .right-side{
+  position: absolute;
+  left: 39%;
+  top: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide-active {
+  width: 60% !important;
+}
+
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide-next {
+  width: 26% !important;
+}
+
+
+.pf-popular-product-section
+ .pf-slider-card .left-side a img{
+ width: 100%;
+ height: 100%;
+ border-radius: 32px;
+}
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide-active .pf-slider-card {
+  border: 2px solid #1C487D;
+  border-radius: 32px;
+}
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper {
+  gap: 24px;
+}
+
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide-active .pf-slider-card .left-side a img{
+  border-radius: 32px 0 0 32px;
+  height: 497px;
+max-width: 310px;
+  object-fit: cover;
+}
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide .pf-slider-card .right-side{
+  padding: 36px 56px; 
+  background: #fff;
+  border-radius: 32px;
+}
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide .pf-slider-card .right-side svg,
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide .pf-slider-card .right-side img,
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide .pf-slider-card .right-side .pf-paragraph
+{
+  margin-bottom: 42px;
+  letter-spacing: -0.1px;
+}
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide .pf-slider-card .right-side .pf-last-btn h5{
+  color: #141414;
+  font-family: "Adelle Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.1px;
+}
+.pf-popular-product-section .pf-popular-slider .swiper-wrapper .swiper-slide .pf-slider-card .right-side .pf-last-btn p{
+  color:#424242;
+  font-family: ABeeZee;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.08px;
+}
+
+.pf-arrow-btn-nextandprev
+.pf-next-btn{
+  border-radius: 40px;
+  border: 2px solid #1C487D;
+  cursor: pointer;
+}
+.pf-arrow-btn-nextandprev
+.pf-prev-btn{
+  border-radius: 40px;
+  border: 2px solid #1C487D;
+  cursor: pointer;
+  background: #1C487D;
+}
+
+.pf-arrow-btn-nextandprev{
+  text-align: end;
+  margin-top: 48px;
+}
+
+
+
 /* popular product section css end */
 
 
